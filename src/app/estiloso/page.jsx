@@ -1,10 +1,10 @@
-import Link from "next/link";
-
+import Layout from "@/components/Layout";
 export default function Estiloso() {
   return (
-    <div className="bg-purple-300 text-white ">
-      <Link href="/inicio"> Voltar</Link>
-      <h1>Estiloso Usando CSS Modulos</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1> Estilo usando CSS Modulos</h1>
+      </div>
+    </Layout>
   );
 }
