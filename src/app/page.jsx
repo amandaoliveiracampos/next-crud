@@ -7,6 +7,7 @@ export default function App() {
         <Navegador texto="Estiloso" destino="/estiloso"></Navegador>
         <Navegador texto="Exemplo" destino="/exemplo"></Navegador>
         <Navegador texto="JSX" destino="/jsx"></Navegador>
+        <Navegador texto="Navegacao" destino="cliente/123"></Navegador>
       </div>
     </div>
   );
